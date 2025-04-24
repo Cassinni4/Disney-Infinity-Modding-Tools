@@ -1,2 +1,10 @@
-The code contains both dct to xml and xml to dct. At the very end of the code you can activate and deactivate by placing the ''' at the start and end of what you want to deactivate.
+The code contains both dct to xml and xml to dct. At the very end of the code you can activate and deactivate by placing the ''' at the start and end of what you want to deactivate. Starting at "def dct_to_xml" or "def xml_to_dct"
 The "def" should explain which is which.
+You have to manually edit the paths after 
+if __name__ == "__main__":
+    dct_to_xml
+or
+if __name__ == "__main__":
+    xml_to_dct
+
+Depending on what you convert to.
