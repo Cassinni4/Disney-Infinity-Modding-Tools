@@ -1,0 +1,4 @@
+cd C:\Users\cassi\Desktop\Breeze-Private-Build\tools\ZIP Reencrypter
+offsetting.exe whyjustwhy -e 681BBEEA63160188F9B7945104A51499 <input-folder> <output-file>
+
+USE CMD!!!!!!!
