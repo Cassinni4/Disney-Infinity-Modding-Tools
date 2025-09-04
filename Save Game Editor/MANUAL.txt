@@ -1,0 +1,3 @@
+1. grab your save file you want to edit
+2. unpack with "inflate.py -d <input_file> <output_file>"
+3. repack with "inflate.py -c <input_file> <output_file>"
