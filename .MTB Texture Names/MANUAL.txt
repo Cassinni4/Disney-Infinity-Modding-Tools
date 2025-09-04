@@ -1,0 +1,2 @@
+1. open powershell
+2. run "findstr /I [full or partial filename] outputClean.txt"
