@@ -1,0 +1,2 @@
+1. run the exe
+2. pick the ibuf

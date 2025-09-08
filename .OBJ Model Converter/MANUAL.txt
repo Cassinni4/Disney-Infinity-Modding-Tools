@@ -1,0 +1,6 @@
+python objConverterV3.py <yourmodel>.obj
+Add --extended for debug info
+----------------------------------------------
+
+JTLS Test.oct doesn't work (sad!) from V2 when I attempted to import bones (my dumbass thought bones were stored in the wrong spot!)
+HP/Q models are of Jeff The Land Shark! I love him too much to not try and import him!
