@@ -1,5 +1,7 @@
 # It's not ready yet.
 
+.OBJ Model Converter/objConverter.py
+.OBJ Model Converter/objConverterV2.py
 .OBJ Model Converter/objConverterV3.py
 .OBJ Model Converter/objConverterV4.py
 .OBJ Model Converter/dist
