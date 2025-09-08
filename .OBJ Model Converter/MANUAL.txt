@@ -1,3 +1,4 @@
+----------------------------------------------
 python objConverterV3.py <yourmodel>.obj
 Add --extended for debug info
 ----------------------------------------------
