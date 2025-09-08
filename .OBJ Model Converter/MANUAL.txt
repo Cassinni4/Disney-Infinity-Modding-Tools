@@ -2,7 +2,19 @@ python objConverterV3.py <yourmodel>.obj
 Add --extended for debug info
 ----------------------------------------------
 
+V3 Notes:
 LP/Q models work best
 JTLS Test.oct doesn't work (sad!) from V2 when I attempted to import bones (my dumbass thought bones were stored in the wrong spot!)
 HP/Q models are of Jeff The Land Shark! I love him too much to not try and import him!
-UV stuff is nearly there, .TBODY of a LQ/P Superman was ALMOST aligned
+UV stuff is nearly there, .TBODY of a LQ/P Superman was ALMOST
+
+_________________________________________________________________________________________________________________________________________
+
+----------------------------------------------
+python objConverterV4.py <yourmodel>.obj
+Add --extended for debug info
+----------------------------------------------
+
+V4 Notes:
+
+Added a mockup .OCT creator. Nowhere near done.

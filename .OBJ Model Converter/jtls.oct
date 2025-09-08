@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectDatabase>
+  <MaterialBundlePool>
+    <MaterialBundle name="jtls" file="jtls.mtb"/>
+  </MaterialBundlePool>
+  <MaterialPool>
+    <Material name="jtls_material" file="jtls.mtl"/>
+  </MaterialPool>
+  <VertexBufferPool>
+    <VertexBuffer name="jtls_vb" file="jtls.vbuf"/>
+  </VertexBufferPool>
+  <IndexBufferPool>
+    <IndexBuffer name="jtls_ib" file="jtls.ibuf"/>
+  </IndexBufferPool>
+  <SceneTreeNodePool>
+    <SceneTreeNode name="jtls_node" />
+  </SceneTreeNodePool>
+  <SubNetworkPool>
+    <SubNetwork name="jtls_network" />
+  </SubNetworkPool>
+</ObjectDatabase>
