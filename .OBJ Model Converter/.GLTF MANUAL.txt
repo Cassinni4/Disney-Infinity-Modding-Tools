@@ -1,0 +1,10 @@
+----------------------------------------------
+python gltfConverterV1.py <yourmodel>.gltf
+Add --extended for debug info
+----------------------------------------------
+
+V1 Notes:
+
+IT WILL AUTOMATICALLY FIND YOUR .BIN IF YOU HAVE ONE. DON'T PUT IT IN THE PATH
+INSTALL NUMPY AND TRIMESH!!!
+YOU MUST RE-ENCRYPT THE PROVIDED BONELESS .OCT WITH C2DITOOLS ONCE YOU HAVE EDITIED IT! SEARCH FOR "EDIT ME" FOR THE LINES TO EDIT!

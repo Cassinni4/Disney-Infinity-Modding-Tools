@@ -1,0 +1,705 @@
+<?xml version="1.0" ?>
+<root_node>
+   <SubNetworkPool>
+      <SubNetwork type="reference_string">
+         0
+         <Type type="string">Scene</Type>
+         <Name type="string">Scene</Name>
+         <ConstantHeaderCount type="int8">0</ConstantHeaderCount>
+         <VariableHeaderCount type="int8">9</VariableHeaderCount>
+         <ConstantDataNodeCount type="int8">0</ConstantDataNodeCount>
+         <VariableDataNodeCount type="int8">5</VariableDataNodeCount>
+         <ProcessorNodeCount type="int8">2</ProcessorNodeCount>
+         <VariableAccumulatedSize32>
+            <__1 type="uint16_list">
+               <entry>4</entry>
+               <entry>184</entry>
+               <entry>7</entry>
+            </__1>
+            <__4 type="int8_list">
+               <entry>4</entry>
+               <entry>12</entry>
+               <entry>2</entry>
+            </__4>
+         </VariableAccumulatedSize32>
+         <VariableAccumulatedSize64>
+            <__1 type="uint16_list">
+               <entry>8</entry>
+               <entry>208</entry>
+               <entry>7</entry>
+            </__1>
+            <__4 type="int8_list">
+               <entry>8</entry>
+               <entry>24</entry>
+               <entry>2</entry>
+            </__4>
+         </VariableAccumulatedSize64>
+         <BasisCount type="int8">2</BasisCount>
+         <BasisConversionCount type="int8">2</BasisConversionCount>
+         <ComponentFamilyCount type="int8">0</ComponentFamilyCount>
+         <ComponentMemberCount type="int8">0</ComponentMemberCount>
+         <VariantGroupCount type="int8">1</VariantGroupCount>
+         <VariantMemberCount type="int8">2</VariantMemberCount>
+         <LayerBindCount type="int8">0</LayerBindCount>
+         <BaseDataNodeLinksCount type="int8">0</BaseDataNodeLinksCount>
+         <BasisPool>
+            <Basis type="reference_string">
+               0
+               <Type type="string">Geometry3d</Type>
+               <Behavior type="string">Root</Behavior>
+            </Basis>
+            <Basis type="reference_string">
+               1
+               <Name type="string">Anchor</Name>
+               <ParentRef type="int8">0</ParentRef>
+               <Behavior type="string">Normal</Behavior>
+            </Basis>
+            <Basis type="reference_string">
+               2
+               <Type type="string">Visibility</Type>
+               <Behavior type="string">Root</Behavior>
+            </Basis>
+            <Basis type="reference_string">
+               3
+               <Name type="string">Anchor</Name>
+               <ParentRef type="int8">2</ParentRef>
+               <Behavior type="string">Normal</Behavior>
+            </Basis>
+         </BasisPool>
+         <HeaderStrings type="string_list">
+            <entry>In WorldBasis.Transform</entry>
+            <entry>Anchor</entry>
+            <entry>Transform</entry>
+            <entry>TCW_TownPeople_Hera</entry>
+            <entry>ConvertDilationToTransform</entry>
+            <entry>Convert To WorldBasis</entry>
+            <entry>Visibility</entry>
+            <entry>In WorldBasis</entry>
+         </HeaderStrings>
+         <HeaderStringIndices type="int8_list">
+            <entry>1</entry>
+            <entry>6</entry>
+            <entry>2</entry>
+            <entry>3</entry>
+            <entry>2</entry>
+            <entry>0</entry>
+            <entry>7</entry>
+            <entry>5</entry>
+            <entry>4</entry>
+         </HeaderStringIndices>
+         <HeaderLayout type="int8_list">
+            <entry>0</entry>
+            <entry>1</entry>
+            <entry>1</entry>
+            <entry>3</entry>
+            <entry>4</entry>
+            <entry>1</entry>
+            <entry>5</entry>
+            <entry>3</entry>
+            <entry>6</entry>
+            <entry>1</entry>
+         </HeaderLayout>
+         <ConstantLayoutCount type="int8">0</ConstantLayoutCount>
+         <DataNodePool>
+            <DataNode type="reference_string">
+               0
+               <Header type="int8">2</Header>
+               <Type type="string">Visibility</Type>
+               <External type="int8">1</External>
+               <BasisRef type="int8">2</BasisRef>
+               <Data type="int8">0</Data>
+            </DataNode>
+            <DataNode type="reference_string">
+               1
+               <Header type="int8">3</Header>
+               <Type type="string">Dilation</Type>
+               <External type="int8">1</External>
+               <BasisRef type="int8">0</BasisRef>
+            </DataNode>
+            <DataNode type="reference_string">
+               2
+               <Header type="int8">5</Header>
+               <Type type="string">Dilation</Type>
+               <External type="int8">1</External>
+               <BasisRef type="int8">1</BasisRef>
+            </DataNode>
+            <DataNode type="reference_string">
+               3
+               <Header type="int8">6</Header>
+               <Type type="string">Transform</Type>
+               <External type="int8">1</External>
+               <BasisRef type="int8">0</BasisRef>
+               <Data>
+                  <Translation type="float_list">
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                  </Translation>
+                  <Orientation type="float_list">
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>1.0</entry>
+                  </Orientation>
+                  <Scale type="float_list">
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                  </Scale>
+                  <Unscale type="float_list">
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                     <entry>1.0</entry>
+                  </Unscale>
+               </Data>
+            </DataNode>
+            <DataNode type="reference_string">
+               4
+               <Header type="int8">7</Header>
+               <Type type="string">Dilation</Type>
+               <BasisRef type="int8">0</BasisRef>
+               <Data>
+                  <Translation type="float_list">
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                  </Translation>
+                  <Orientation type="float_list">
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>0.0</entry>
+                     <entry>1.0</entry>
+                  </Orientation>
+                  <Scale type="float">1.0</Scale>
+               </Data>
+            </DataNode>
+         </DataNodePool>
+         <ComponentFamilyPool/>
+         <BasisConversionPool>
+            <BasisConversion>
+               <FromBasisRef type="int8">1</FromBasisRef>
+               <ToBasisRef type="int8">0</ToBasisRef>
+               <DataNodeRef type="int8">1</DataNodeRef>
+            </BasisConversion>
+            <BasisConversion>
+               <FromBasisRef type="int8">3</FromBasisRef>
+               <ToBasisRef type="int8">2</ToBasisRef>
+               <DataNodeRef type="int8">0</DataNodeRef>
+            </BasisConversion>
+         </BasisConversionPool>
+         <ProcessorNodePool>
+            <ProcessorNode type="reference_string">
+               0
+               <Header type="int8">9</Header>
+               <Type type="string">DilationToTransformVariantProcessor</Type>
+               <DataNodeRefs type="int8_list">
+                  <entry>4</entry>
+                  <entry>3</entry>
+               </DataNodeRefs>
+               <DataNodeAttributes type="string_list">
+                  <entry>Input</entry>
+                  <entry>Output</entry>
+               </DataNodeAttributes>
+            </ProcessorNode>
+            <ProcessorNode type="reference_string">
+               1
+               <Header type="int8">8</Header>
+               <Type type="string">TransformDilationWithDilation</Type>
+               <DataNodeRefs type="int8_list">
+                  <entry>2</entry>
+                  <entry>1</entry>
+                  <entry>4</entry>
+               </DataNodeRefs>
+               <DataNodeAttributes type="string_list">
+                  <entry>Input</entry>
+                  <entry>Converter</entry>
+                  <entry>Output</entry>
+               </DataNodeAttributes>
+            </ProcessorNode>
+         </ProcessorNodePool>
+         <VariantGroupPool>
+            <VariantGroup type="int8_list">
+               <entry>4</entry>
+               <entry>3</entry>
+            </VariantGroup>
+         </VariantGroupPool>
+      </SubNetwork>
+   </SubNetworkPool>
+   <CollisionShapePool>
+      <Shape type="reference_string">
+         0
+         <ShapeType type="string">Box</ShapeType>
+         <SurfaceType type="int8">0</SurfaceType>
+         <Extent type="float_list">
+            <entry>0.5</entry>
+            <entry>1.0</entry>
+            <entry>0.30000001192092896</entry>
+         </Extent>
+      </Shape>
+      <Shape type="reference_string">
+         1
+         <ShapeType type="string">Compound</ShapeType>
+         <Shapes>
+            <Shape type="reference_string">
+               0
+               <ShapeRef type="int8">0</ShapeRef>
+               <Transform type="float_list">
+                  <entry>1.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>1.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>1.0</entry>
+                  <entry>0.0</entry>
+                  <entry>0.0</entry>
+                  <entry>1.0</entry>
+                  <entry>0.0</entry>
+                  <entry>1.0</entry>
+               </Transform>
+            </Shape>
+         </Shapes>
+      </Shape>
+   </CollisionShapePool>
+   <CollisionInstancePool>
+      <Instance type="reference_string">
+         0
+         <Transform type="float_list">
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+         </Transform>
+         <Friction type="float">0.800000011920929</Friction>
+         <Restitution type="float">0.20000000298023224</Restitution>
+      </Instance>
+   </CollisionInstancePool>
+   <DisplayLayerPool>
+      <DisplayLayer type="reference_string">
+         0
+         <Name type="string">_cull_default</Name>
+         <Mask type="int8">-1</Mask>
+      </DisplayLayer>
+   </DisplayLayerPool>
+   <CellPool>
+      <Cell type="reference_string">
+         0
+         <Name type="string">_REST_OF_WORLD_</Name>
+         <Flags type="int8">3</Flags>
+         <BoundingBox type="float_list">
+            <entry>-3.4028234663852886e+38</entry>
+            <entry>-3.4028234663852886e+38</entry>
+            <entry>-3.4028234663852886e+38</entry>
+            <entry>3.4028234663852886e+38</entry>
+            <entry>3.4028234663852886e+38</entry>
+            <entry>3.4028234663852886e+38</entry>
+         </BoundingBox>
+         <CellToWorldMatrix type="float_list">
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+         </CellToWorldMatrix>
+      </Cell>
+   </CellPool>
+   <MaterialBundlePool>
+      <MaterialBundle type="reference_string">
+         0
+         <FileName type="string">icon_npc_tcw_hera.mtb</FileName>
+      </MaterialBundle>
+   </MaterialBundlePool>
+   <MaterialPool>
+      <Material type="reference_string">
+         0
+         <Name type="string">TCW_Townspeople_Hera_B</Name>
+         <FileName type="string">materials__worlds__tcw_townspeople_hera_b.mtl</FileName>
+         <Type type="string">Shader</Type>
+         <Effect type="string"/>
+         <PropertyEntries/>
+      </Material>
+      <Material type="reference_string">
+         1
+         <Name type="string">TCW_Townspeople_Hera_HD</Name>
+         <FileName type="string">materials__worlds__tcw_townspeople_hera_hd.mtl</FileName>
+         <Type type="string">Shader</Type>
+         <Effect type="string"/>
+         <PropertyEntries/>
+      </Material>
+   </MaterialPool>
+   <VertexBufferPool>
+      <VertexBuffer type="reference_string">
+         0
+         <Name type="string">Static</Name>
+         <Flags type="int8">91</Flags>
+         <Size type="int24">97504</Size>
+         <HeapLoc type="int8">0</HeapLoc>
+         <FileName type="string">EDIT ME.vbuf</FileName>
+      </VertexBuffer>
+      <VertexBuffer type="reference_string">
+         1
+         <Name type="string">Dynamic</Name>
+         <Flags type="int8">127</Flags>
+         <Size type="int8">0</Size>
+         <HeapLoc type="int8">0</HeapLoc>
+      </VertexBuffer>
+   </VertexBufferPool>
+   <IndexBufferPool>
+      <IndexBuffer type="reference_string">
+         0
+         <Width type="int8">2</Width>
+         <Name type="string">Static</Name>
+         <Flags type="int8">91</Flags>
+         <Size type="uint16">25080</Size>
+         <FileName type="string">EDIT ME.ibuf</FileName>
+      </IndexBuffer>
+      <IndexBuffer type="reference_string">
+         1
+         <Width type="int8">2</Width>
+         <Name type="string">Dynamic</Name>
+         <Flags type="int8">127</Flags>
+         <Size type="int8">0</Size>
+      </IndexBuffer>
+      <IndexBuffer type="reference_string">
+         2
+         <Width type="int8">4</Width>
+         <Name type="string">Static</Name>
+         <Flags type="int8">91</Flags>
+         <Size type="int8">0</Size>
+      </IndexBuffer>
+      <IndexBuffer type="reference_string">
+         3
+         <Width type="int8">4</Width>
+         <Name type="string">Dynamic</Name>
+         <Flags type="int8">127</Flags>
+         <Size type="int8">0</Size>
+      </IndexBuffer>
+      <IndexBuffer type="reference_string">
+         4
+         <Width type="int8">1</Width>
+         <Name type="string">Static</Name>
+         <Flags type="int8">91</Flags>
+         <Size type="int8">0</Size>
+      </IndexBuffer>
+      <IndexBuffer type="reference_string">
+         5
+         <Width type="int8">1</Width>
+         <Name type="string">Dynamic</Name>
+         <Flags type="int8">127</Flags>
+         <Size type="int8">0</Size>
+      </IndexBuffer>
+   </IndexBufferPool>
+   <SceneTreeNodePool>
+      <Node type="reference_string">
+         0
+         <Type type="string">Scene</Type>
+      </Node>
+      <Node type="reference_string">
+         1
+         <NodeName type="string">Anchor</NodeName>
+         <Uuid type="uint8_list">
+            <entry>177</entry>
+            <entry>14</entry>
+            <entry>1</entry>
+            <entry>121</entry>
+            <entry>206</entry>
+            <entry>133</entry>
+            <entry>115</entry>
+            <entry>66</entry>
+            <entry>163</entry>
+            <entry>0</entry>
+            <entry>151</entry>
+            <entry>175</entry>
+            <entry>22</entry>
+            <entry>177</entry>
+            <entry>85</entry>
+            <entry>44</entry>
+         </Uuid>
+         <DisplayLayer type="int8">-1</DisplayLayer>
+         <Type type="string">Transform</Type>
+         <ParentNodeReferences type="int8_list">
+            <entry>0</entry>
+         </ParentNodeReferences>
+         <LocalToParentMatrix type="float_list">
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+         </LocalToParentMatrix>
+      </Node>
+      <Node type="reference_string">
+         2
+         <NodeName type="string">TCW_TownPeople_Hera</NodeName>
+         <Uuid type="uint8_list">
+            <entry>137</entry>
+            <entry>134</entry>
+            <entry>180</entry>
+            <entry>141</entry>
+            <entry>29</entry>
+            <entry>174</entry>
+            <entry>5</entry>
+            <entry>77</entry>
+            <entry>152</entry>
+            <entry>150</entry>
+            <entry>211</entry>
+            <entry>163</entry>
+            <entry>80</entry>
+            <entry>253</entry>
+            <entry>4</entry>
+            <entry>116</entry>
+         </Uuid>
+         <DisplayLayer type="int8">-1</DisplayLayer>
+         <Type type="string">Geometry</Type>
+         <Visible type="int8">1</Visible>
+         <DynamicVisPlacement type="int8">1</DynamicVisPlacement>
+         <MeshName type="string">TCW_TownPeople_HeraShape</MeshName>
+         <BoundingSphereCenter type="float_list">
+            <entry>-2.5331974029541016e-07</entry>
+            <entry>0.8827218413352966</entry>
+            <entry>-0.01862560212612152</entry>
+         </BoundingSphereCenter>
+         <BoundingSphereRadius type="float">0.9099742770195007</BoundingSphereRadius>
+         <BoundingOBBOrientation type="float_list">
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+         </BoundingOBBOrientation>
+         <BoundingOBBCenter type="float_list">
+            <entry>-2.492932935638237e-07</entry>
+            <entry>0.8827219009399414</entry>
+            <entry>-0.018625596538186073</entry>
+         </BoundingOBBCenter>
+         <BoundingOBBExtents type="float_list">
+            <entry>0.29753655195236206</entry>
+            <entry>0.8821638822555542</entry>
+            <entry>0.23376131057739258</entry>
+         </BoundingOBBExtents>
+         <BoundingBox type="float_list">
+            <entry>-0.29753679037094116</entry>
+            <entry>0.000557954772375524</entry>
+            <entry>-0.2523869276046753</entry>
+            <entry>0.29753628373146057</entry>
+            <entry>1.7648857831954956</entry>
+            <entry>0.21513572335243225</entry>
+         </BoundingBox>
+         <BoundingType type="string">Box</BoundingType>
+         <NumPrimitives type="int8">2</NumPrimitives>
+         <Primitives>
+            <Primitive type="reference_string">
+               0
+               <MaterialName type="string">materials__worlds__tcw_townspeople_hera_b</MaterialName>
+               <MaterialReference type="int8">0</MaterialReference>
+               <vformatCRC type="uint32">1672376591</vformatCRC>
+               <RenderCaps type="uint16">512</RenderCaps>
+               <BillboardType type="int8">-1</BillboardType>
+               <OcclusionType type="int8">0</OcclusionType>
+               <OcclusionCheckRadius type="float">0.25</OcclusionCheckRadius>
+               <OcclusionFadeKp type="float">0.10000000149011612</OcclusionFadeKp>
+               <Idata type="uint16_list">
+                  <entry>0</entry>
+                  <entry>0</entry>
+                  <entry>0</entry>
+                  <entry>9438</entry>
+               </Idata>
+               <Vdata type="int24_list">
+                  <entry>2</entry>
+                  <entry>2183</entry>
+                  <entry>0</entry>
+                  <entry>0</entry>
+                  <entry>16</entry>
+                  <entry>0</entry>
+                  <entry>48752</entry>
+                  <entry>16</entry>
+               </Vdata>
+            </Primitive>
+            <Primitive type="reference_string">
+               1
+               <MaterialName type="string">materials__worlds__tcw_townspeople_hera_hd</MaterialName>
+               <MaterialReference type="int8">1</MaterialReference>
+               <vformatCRC type="uint32">1672376591</vformatCRC>
+               <RenderCaps type="uint16">512</RenderCaps>
+               <BillboardType type="int8">-1</BillboardType>
+               <OcclusionType type="int8">0</OcclusionType>
+               <OcclusionCheckRadius type="float">0.25</OcclusionCheckRadius>
+               <OcclusionFadeKp type="float">0.10000000149011612</OcclusionFadeKp>
+               <Idata type="uint16_list">
+                  <entry>0</entry>
+                  <entry>18876</entry>
+                  <entry>2183</entry>
+                  <entry>3102</entry>
+               </Idata>
+               <Vdata type="int24_list">
+                  <entry>2</entry>
+                  <entry>864</entry>
+                  <entry>0</entry>
+                  <entry>34928</entry>
+                  <entry>16</entry>
+                  <entry>0</entry>
+                  <entry>83680</entry>
+                  <entry>16</entry>
+               </Vdata>
+            </Primitive>
+         </Primitives>
+         <ParentNodeReferences type="int8_list">
+            <entry>1</entry>
+         </ParentNodeReferences>
+         <LocalToParentMatrix type="float_list">
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>0.0</entry>
+            <entry>1.0</entry>
+         </LocalToParentMatrix>
+      </Node>
+   </SceneTreeNodePool>
+   <AssetPool>
+      <Asset type="reference_string">
+         0
+         <Name type="string">Root</Name>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+         <SceneTreeNodeRef type="int8">0</SceneTreeNodeRef>
+         <AggregateCount type="int8">1</AggregateCount>
+      </Asset>
+   </AssetPool>
+   <AssociationPool>
+      <Association type="reference_string">
+         0
+         <NodeName type="string">Anchor|TCW_TownPeople_Hera</NodeName>
+         <Type type="string">CollisionInstanceToSceneTreeNode</Type>
+         <CollisionInstanceRef type="int8">0</CollisionInstanceRef>
+         <SceneTreeNodeRef type="int8">2</SceneTreeNodeRef>
+      </Association>
+      <Association type="reference_string">
+         1
+         <NodeName type="string">Anchor|TCW_TownPeople_Hera|Transform|In WorldBasis.Transform</NodeName>
+         <Type type="string">CollisionInstanceToDataNode</Type>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+         <CollisionInstanceRef type="int8">0</CollisionInstanceRef>
+         <AssetIndex type="int8">0</AssetIndex>
+      </Association>
+      <Association type="reference_string">
+         2
+         <NodeName type="string">Anchor|TCW_TownPeople_Hera|Transform|In WorldBasis.Transform</NodeName>
+         <Type type="string">CollisionAggregate</Type>
+         <CollisionInstanceRef type="int8">0</CollisionInstanceRef>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+         <SceneTreeNodeRef type="int8">2</SceneTreeNodeRef>
+         <AssetIndex type="int8">0</AssetIndex>
+      </Association>
+      <Association type="reference_string">
+         3
+         <NodeName type="string">Anchor|TCW_TownPeople_Hera</NodeName>
+         <Type type="string">CollisionShapeToCollisionInstance</Type>
+         <CollisionInstanceRef type="int8">0</CollisionInstanceRef>
+         <CollisionShapeRef type="int8">1</CollisionShapeRef>
+      </Association>
+      <Association type="reference_string">
+         4
+         <NodeName type="string">CellLink__REST_OF_WORLD_</NodeName>
+         <Type type="string">CellLink</Type>
+         <CellRef type="int8">0</CellRef>
+         <LinkedCells type="int8_list"/>
+         <LinkedSceneTreeNodeRefs type="int8_list">
+            <entry>1</entry>
+            <entry>2</entry>
+         </LinkedSceneTreeNodeRefs>
+      </Association>
+      <Association type="reference_string">
+         5
+         <NodeName type="string">VisHierarchyLink_0</NodeName>
+         <Type type="string">VisHierarchyLink</Type>
+         <CellRef type="int8">0</CellRef>
+         <LinkedNodeRefs type="int8_list">
+            <entry>2</entry>
+         </LinkedNodeRefs>
+      </Association>
+      <Association type="reference_string">
+         6
+         <NodeName type="string">Anchor</NodeName>
+         <Type type="string">Transform</Type>
+         <SceneTreeNodeRef type="int8">1</SceneTreeNodeRef>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+      </Association>
+      <Association type="reference_string">
+         7
+         <NodeName type="string">Anchor</NodeName>
+         <Type type="string">Anchor</Type>
+         <SceneTreeNodeRef type="int8">1</SceneTreeNodeRef>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+      </Association>
+      <Association type="reference_string">
+         8
+         <NodeName type="string">Anchor</NodeName>
+         <Type type="string">PrimaryAnchor</Type>
+         <SceneTreeNodeRef type="int8">1</SceneTreeNodeRef>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+      </Association>
+      <Association type="reference_string">
+         9
+         <NodeName type="string">Anchor|TCW_TownPeople_Hera</NodeName>
+         <Type type="string">Geometry</Type>
+         <SceneTreeNodeRef type="int8">2</SceneTreeNodeRef>
+         <SubNetworkRef type="int8">0</SubNetworkRef>
+      </Association>
+   </AssociationPool>
+   <ExporterDate type="string">Jun  3 2015</ExporterDate>
+   <ExporterTime type="string">17:59:11</ExporterTime>
+</root_node>

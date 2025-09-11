@@ -1,0 +1,1 @@
+The current main limitation is that the higher vertex count (higher quality model), the more the model disapears. I don't know how to fix it. Hopefully it will be fixed in the future.

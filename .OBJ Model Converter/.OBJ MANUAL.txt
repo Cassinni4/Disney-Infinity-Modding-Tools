@@ -20,3 +20,7 @@ V4 Notes:
 
 Added a mockup .OCT creator. Nowhere near done
 If you uncomment it and use it, it's your fault
+
+
+YOU MUST RE-ENCRYPT THE PROVIDED BONELESS .OCT WITH C2DITOOLS ONCE YOU HAVE EDITIED IT! SEARCH FOR "EDIT ME" FOR THE LINES TO EDIT!
+INSTALL NUMPY!!!
