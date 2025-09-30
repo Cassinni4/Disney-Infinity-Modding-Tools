@@ -1,3 +1,5 @@
+# BUILDDATE 9/30/25
+
 import os
 import sys
 import struct
@@ -108,6 +110,9 @@ print(f"[INFO] .VBUF file written: {vbufFilename}")
 # -----------------------
 # OCTCreator.py
 # -----------------------
+
+# It works now. This will be heavily modified later probably, but good enough for now
+
 print("[INFO] Launching OCTCreator.py with generated filenames")
 print(f"[INFO] IBUF: {ibufFilename}")
 print(f"[INFO] VBUF: {vbufFilename}")
