@@ -24,3 +24,17 @@ If you uncomment it and use it, it's your fault
 
 YOU MUST RE-ENCRYPT THE PROVIDED BONELESS .OCT WITH C2DITOOLS ONCE YOU HAVE EDITIED IT! SEARCH FOR "EDIT ME" FOR THE LINES TO EDIT!
 INSTALL NUMPY!!!
+_________________________________________________________________________________________________________________________________________
+
+----------------------------------------------
+python objConverterV5.py <yourmodel>.obj
+Add --extended for debug info
+----------------------------------------------
+
+V5 Notes:
+
+.OCT Creator works now lol.
+
+PLEASE RE-ENCRYPT THE NEW .OCT WITH C2DITOOLS!!! IT DOESN'T WORK DECRYPTED!!
+YOU CAN GO BACK IN THE OUTPUTTED .OCT AND EDIT IT IF YOU WISH! JUST NOT AFTER RE-ENCRYPTION
+INSTALL NUMPY!!!

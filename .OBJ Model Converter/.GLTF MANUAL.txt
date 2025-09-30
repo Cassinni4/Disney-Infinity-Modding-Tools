@@ -8,3 +8,16 @@ V1 Notes:
 IT WILL AUTOMATICALLY FIND YOUR .BIN IF YOU HAVE ONE. DON'T PUT IT IN THE PATH
 INSTALL NUMPY AND TRIMESH!!!
 YOU MUST RE-ENCRYPT THE PROVIDED BONELESS .OCT WITH C2DITOOLS ONCE YOU HAVE EDITIED IT! SEARCH FOR "EDIT ME" FOR THE LINES TO EDIT!
+_________________________________________________________________________________________________________________________________________
+
+----------------------------------------------
+python gltfConverterV2.py <yourmodel>.gltf
+Add --extended for debug info
+----------------------------------------------
+
+V2 Notes:
+
+.OCT Creator works now lol.
+
+PLEASE RE-ENCRYPT THE NEW .OCT WITH C2DITOOLS!!! IT DOESN'T WORK DECRYPTED!!
+YOU CAN GO BACK IN THE OUTPUTTED .OCT AND EDIT IT IF YOU WISH! JUST NOT AFTER RE-ENCRYPTION
